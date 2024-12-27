@@ -3,7 +3,7 @@
   "displayName": "VSCODE Extension Development Intellisense",
   "description": "Launch VSCODE Extension with Development",
   "publisher": "amiralariska",
-  "icon": "icon/vscode-extension-development-intellisense.jpg",
+  "icon": "icon/vscode-extension-development-intellisense-logo.jpg",
   "repository": {
     "type": "git",
     "url": "https://github.com/amiralariska/vscode-extension-development-intellisense"

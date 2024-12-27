@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/amiralariska/vscode-extension-development-intellisense/refs/heads/vscode-extension-development-intellisense/icon/vscode-extension-development-snippets-logo.jpg" alt="VSCODE Logo">
+    <img src="https://raw.githubusercontent.com/amiralariska/vscode-extension-development-intellisense/refs/heads/vscode-extension-development-intellisense/icon/vscode-extension-development-intellisense-logo.jpg" alt="VSCODE Logo">
     <h1 align="center">VSCODE Extension Development Intellisense</h1>
     <p align="center">Launch your vscode extension with intellisense</p>
 </p>
