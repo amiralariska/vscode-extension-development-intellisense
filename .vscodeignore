@@ -1,0 +1,12 @@
+.vscode/**
+.vscode-test/**
+test/**
+.gitignore
+*.vsix
+*.txt
+*.bat
+.yarnrc
+vsc-extension-quickstart.md
+**/jsconfig.json
+**/*.map
+**/.eslintrc.json
