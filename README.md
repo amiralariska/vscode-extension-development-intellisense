@@ -9,7 +9,7 @@
 1. In the left sidebar click on the extension icon
 2. And type "VSCODE Extension Development Intellisense"
 3. And click on the install Button
-4. And now your snippets has been installed
+4. And now your vscode extension development intellisense has been installed
 5. Done.
 
 ### How to Add Configuration on launch.json file
