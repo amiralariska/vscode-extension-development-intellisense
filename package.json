@@ -62,7 +62,7 @@
     "Debugging"
   ],
   "activationEvents": [
-    "*"
+    "onLanguage:jsonc"
   ],
   "main": "./extension.js",
   "scripts": {
