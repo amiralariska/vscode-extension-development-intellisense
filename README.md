@@ -31,6 +31,6 @@
 4. and now your launch.json intellisense has been created
 > Note: If you want to add configuration or change configuration name on launch.json file just follow this steps☝
 
-<!-- For more information About VSCODE Extension Development Snippets Steps<br>
+For more information About VSCODE Extension Development Intellisense Steps<br>
 Click link down below<br>
-[VSCODE Extension Development Snippets Steps](https://github.com/amiralariska/vscode-extension-development-snippets-steps) -->
+[VSCODE Extension Development Snippets Steps](https://github.com/amiralariska/vscode-extension-development-intellisense/blob/vscode-extension-development-intellisense/vscode-extension-development-intellisense-tips.md)
