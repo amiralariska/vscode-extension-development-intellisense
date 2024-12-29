@@ -12,4 +12,8 @@
 ### Code Updates
 - Fix indentation in snippet strings for JSONC completion items
 ### Changelog Updates
-- Replace "Snippets" word to "Intellisense" word
+- Replace "Snippets" to "Intellisense" word
+
+## 0.0.3
+### README Updates
+- Replace "Snippets" to "Intellisense" word
