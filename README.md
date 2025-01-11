@@ -12,25 +12,15 @@
 4. And now your vscode extension development intellisense has been installed
 5. Done.
 
-### How to Add Configuration on launch.json file
-1. Open .vscode folder and then open launch.json file
-[![VSCODE Intellisense Tutorial](https://raw.githubusercontent.com/amiralariska/vscode-extension-development-intellisense/refs/heads/vscode-extension-development-intellisense/vscode-extension-development-intellisense-tutorial/vscode-extension-development-intellisense-tutorial.gif)](https://raw.githubusercontent.com/amiralariska/vscode-extension-development-intellisense/refs/heads/vscode-extension-development-intellisense/vscode-extension-development-intellisense-tutorial/vscode-extension-development-intellisense-tutorial.gif)
-2. Click "Add Configuration"
-[![VSCODE Intellisense Tutorial 2](https://raw.githubusercontent.com/amiralariska/vscode-extension-development-intellisense/refs/heads/vscode-extension-development-intellisense/vscode-extension-development-intellisense-tutorial/vscode-extension-development-intellisense-tutorial-2.gif)](https://raw.githubusercontent.com/amiralariska/vscode-extension-development-intellisense/refs/heads/vscode-extension-development-intellisense/vscode-extension-development-intellisense-tutorial/vscode-extension-development-intellisense-tutorial-2.gif)
-3. Press up arrow on your keyboard until you see `VS Code Extension Development(Launch Extension)` and then press enter
-[![VSCODE Intellisense Tutorial 3](https://raw.githubusercontent.com/amiralariska/vscode-extension-development-intellisense/refs/heads/vscode-extension-development-intellisense/vscode-extension-development-intellisense-tutorial/vscode-extension-development-intellisense-tutorial-3.gif)](https://raw.githubusercontent.com/amiralariska/vscode-extension-development-intellisense/refs/heads/vscode-extension-development-intellisense/vscode-extension-development-intellisense-tutorial/vscode-extension-development-intellisense-tutorial-3.gif)
-4. and now your launch.json intellisense has been created
+### How to Read The Documentation In VSCODE Extension Development Intellisense
+1. To Open VSCODE Command Pallete Press `Ctrl+Shift+P` (on Windows) or `Cmd+Shift+P` (on Mac)
+[![VSCODE Intellisense Docs Tutorial](https://raw.githubusercontent.com/amiralariska/vscode-extension-development-intellisense/refs/heads/vscode-extension-development-intellisense/vscode-extension-development-intellisense-docs-tutorial/vscode-extension-development-intellisense-docs-tutorial.gif)](https://raw.githubusercontent.com/amiralariska/vscode-extension-development-intellisense/refs/heads/vscode-extension-development-intellisense/vscode-extension-development-intellisense-docs-tutorial/vscode-extension-development-intellisense-docs-tutorial.gif)
+2. Typing VSCODE Extension Development Intellisense: Show Documentation and hit enter
+[![VSCODE Intellisense Docs Tutorial 2](https://raw.githubusercontent.com/amiralariska/vscode-extension-development-intellisense/refs/heads/vscode-extension-development-intellisense/vscode-extension-development-intellisense-docs-tutorial/vscode-extension-development-intellisense-docs-tutorial-2.gif)](https://raw.githubusercontent.com/amiralariska/vscode-extension-development-intellisense/refs/heads/vscode-extension-development-intellisense/vscode-extension-development-intellisense-docs-tutorial/vscode-extension-development-intellisense-docs-tutorial-2.gif)
+3. And now you can read the documentation for vscode extension development intellisense
+4. Done
+> Note: If you want to read the documentation for vscode extension development intellisense just follow this steps☝
 
-### How to Add Configuration And Change Configuration Name on launch.json file
-1. Open .vscode folder and then open launch.json file
-[![VSCODE Intellisense Tutorial](https://raw.githubusercontent.com/amiralariska/vscode-extension-development-intellisense/refs/heads/vscode-extension-development-intellisense/vscode-extension-development-intellisense-tutorial/vscode-extension-development-intellisense-tutorial.gif)](https://raw.githubusercontent.com/amiralariska/vscode-extension-development-intellisense/refs/heads/vscode-extension-development-intellisense/vscode-extension-development-intellisense-tutorial/vscode-extension-development-intellisense-tutorial.gif)
-2. Click "Add Configuration"
-[![VSCODE Intellisense Tutorial 2](https://raw.githubusercontent.com/amiralariska/vscode-extension-development-intellisense/refs/heads/vscode-extension-development-intellisense/vscode-extension-development-intellisense-tutorial/vscode-extension-development-intellisense-tutorial-2.gif)](https://raw.githubusercontent.com/amiralariska/vscode-extension-development-intellisense/refs/heads/vscode-extension-development-intellisense/vscode-extension-development-intellisense-tutorial/vscode-extension-development-intellisense-tutorial-2.gif)
-3. Press up arrow on your keyboard until you see `VS Code Extension Development(Custom Launch Extension)` and then press enter and you can change the configuration name For Example: Launch VSCODE Extension
-[![VSCODE Intellisense Tutorial 3 - Change Configuration Name](https://raw.githubusercontent.com/amiralariska/vscode-extension-development-intellisense/refs/heads/vscode-extension-development-intellisense/vscode-extension-development-intellisense-tutorial/vscode-extension-development-intellisense-tutorial-4.gif)](https://raw.githubusercontent.com/amiralariska/vscode-extension-development-intellisense/refs/heads/vscode-extension-development-intellisense/vscode-extension-development-intellisense-tutorial/vscode-extension-development-intellisense-tutorial-4.gif)
-4. and now your launch.json intellisense has been created
-> Note: If you want to add configuration or change configuration name on launch.json file just follow this steps☝
-
-For more information About VSCODE Extension Development Intellisense Steps<br>
+For more information About VSCODE Extension Development Intellisense Tips<br>
 Click link down below<br>
-[VSCODE Extension Development Intellisense Steps](https://github.com/amiralariska/vscode-extension-development-intellisense/blob/vscode-extension-development-intellisense/vscode-extension-development-intellisense-tips.md)
+[VSCODE Extension Development Intellisense Tips](https://github.com/amiralariska/vscode-extension-development-intellisense/blob/vscode-extension-development-intellisense/vscode-extension-development-intellisense-tips.md)
