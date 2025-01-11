@@ -5,6 +5,7 @@ test/**
 *.vsix
 *.txt
 *.bat
+*.zip
 .yarnrc
 vsc-extension-quickstart.md
 **/jsconfig.json
