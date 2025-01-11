@@ -3,4 +3,5 @@ node_modules
 *.vsix
 *.txt
 *.bat
+*.zip
 vsc-extension-quickstart.md
