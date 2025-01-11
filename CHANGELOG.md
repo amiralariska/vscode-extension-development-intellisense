@@ -17,3 +17,9 @@
 ## 0.0.3
 ### README Updates
 - Replace "Snippets" to "Intellisense" word
+
+## 0.0.4
+### README Updates
+- Add webview documentation for vscode launch.json intellisense
+### VSCODE Extension Development Intellisense Updates
+- Add VSCODE Extension Development Intellisense Documentation
