@@ -23,3 +23,7 @@
 - Add webview documentation for vscode launch.json intellisense
 ### VSCODE Extension Development Intellisense Updates
 - Add VSCODE Extension Development Intellisense Documentation
+
+## 0.0.5
+### VSCODE Ignore File Updates
+- Ignore archive files
