@@ -27,3 +27,8 @@
 ## 0.0.5
 ### VSCODE Ignore File Updates
 - Ignore archive files
+
+## 0.0.6
+### Code Updates
+- Fix snippet formatting for launch configuration in VS Code extension and "${workspaceFolder}" string for the workspace folder
+- Update GIF assets for VS Code extension tutorial
