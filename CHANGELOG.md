@@ -32,3 +32,12 @@
 ### Code Updates
 - Fix snippet formatting for launch configuration in VS Code extension and "${workspaceFolder}" string for the workspace folder
 - Update GIF assets for VS Code extension tutorial
+
+## 0.0.7
+### VSCODE Extension Development Intellisense Updates
+- Update VSCODE Extension Development Intellisense icon logo
+- Update VSCODE Extension Development Intellisense Tutorial GIFs in webview documentation
+
+## 0.0.8
+### README Updates
+- Update README.md for Reading The Documentation In VSCODE Extension Development Intellisense
