@@ -39,6 +39,14 @@ li{
 	color: #0050ff;
 	margin-top: 5px;
 }
+code{
+	font-family: Consolas, monospace;
+	font-size: 14.5px;
+	background: #050505;
+	color: blue;
+	padding: 1px 3px;
+	border-radius: 5px;
+}
 .main-changelog-content{
 	display: flex;
 	flex-direction: column;

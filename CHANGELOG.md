@@ -53,3 +53,7 @@
 ## 0.1.1
 ### VSCODE Extension Development Intellisense Updates
 - Fix VSCODE Extension Development Intellisense Changelog webview title to show properly as "VSCODE Extension Development Intellisense Release Notes"
+
+## 0.1.2
+### VSCODE Extension Development Intellisense Updates
+- Update `<code>` tags in VSCODE Extension Development Intellisense Changelog webview to use backticks for better readability
