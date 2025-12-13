@@ -1,10 +1,10 @@
 const markdownIt = require('markdown-it')();
 const { getResponsiveStyles } = require('./docsWebviewContentResponsiveStyle');
 
-function getWebviewContent(markdown) {
-	const htmlContent = markdownIt.render(markdown);
+function getWebviewDocsContent(markdown) {
+	const htmlDocsContent = markdownIt.render(markdown);
 	const cssResponsive = getResponsiveStyles();
-	const cssContent = `@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Clear+Sans:wght@500&family=Nunito:wght@400&display=swap');
+	const cssDocsContent = `@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Clear+Sans:wght@500&family=Nunito:wght@400&display=swap');
 body {
 	background: #6d8fa1;
 	font-family: 'Nunito', sans-serif;
@@ -63,7 +63,7 @@ ${cssResponsive}`;
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>VSCODE Extension Development Intellisense Documentation</title>
 	<style>
-		${cssContent}
+		${cssDocsContent}
 	</style>
 </head>
 <body>
@@ -71,9 +71,9 @@ ${cssResponsive}`;
 		<img src="https://raw.githubusercontent.com/amiralariska/vscode-extension-development-intellisense/refs/heads/vscode-extension-development-intellisense/icon/vscode-extension-development-intellisense-logo.jpg" class="vscode-extension-development-intellisense-logo" alt="VSCODE Logo">
 		<h1>VSCODE Extension Development Intellisense Documentation</h1>
 	</div>
-	${htmlContent}
+	${htmlDocsContent}
 </body>
 </html>`;
 }
 
-module.exports = { getWebviewContent };
+module.exports = { getWebviewDocsContent };

@@ -1,7 +1,8 @@
 const vscode = require('vscode');
 const fs = require('fs');
 const path = require('path');
-const { getWebviewContent } = require('./webview/docsWebviewContent');
+const { getWebviewDocsContent } = require('./webview/docsWebviewContent');
+const { getWebviewChangelogContent } = require('./webview/changelogWebviewContent');
 
 
 function activate(context) {
@@ -44,17 +45,35 @@ function activate(context) {
 			{}
 		);
 
-		const markdownPath = path.join(context.extensionPath, 'vscode-extension-development-intellisense-docs.md');
-		fs.readFile(markdownPath, 'utf8', (err, data) => {
+		const markdowndocsPath = path.join(context.extensionPath, 'vscode-extension-development-intellisense-docs.md');
+		fs.readFile(markdowndocsPath, 'utf8', (err, data) => {
 			if (err) {
-				vscode.window.showErrorMessage('Could not load markdown file');
+				vscode.window.showErrorMessage('Could not load docs markdown file');
 				return;
 			}
-			panel.webview.html = getWebviewContent(data);
+			panel.webview.html = getWebviewDocsContent(data);
+		});
+	});
+	
+	const changelogWebview = vscode.commands.registerCommand('vscode-extension-development-intellisense.showChangelog', () => {
+		const panel = vscode.window.createWebviewPanel(
+			'vscodeExtensionDevelopmentIntellisenseChangelog',
+			'VSCODE Extension Development Intellisense Changelog',
+			vscode.ViewColumn.Active,
+			{}
+		);
+
+		const markdownchangelogPath = path.join(context.extensionPath, 'vscode-extension-development-intellisense-changelog.md');
+		fs.readFile(markdownchangelogPath, 'utf8', (err, data) => {
+			if (err) {
+				vscode.window.showErrorMessage('Could not load changelog file');
+				return;
+			}
+			panel.webview.html = getWebviewChangelogContent(data);
 		});
 	});
 
-	context.subscriptions.push(launchjsonautocomplete, docsWebview);
+	context.subscriptions.push(launchjsonautocomplete, docsWebview, changelogWebview);
 }
 
 exports.activate = activate;
