@@ -55,7 +55,7 @@ li{
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VSCODE Extension Development Intellisense Changelog</title>
+    <title>VSCODE Extension Development Intellisense Release Notes</title>
     <style>
         ${cssChangelogContent}
     </style>

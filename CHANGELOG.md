@@ -45,3 +45,7 @@
 ## 0.0.9
 ### VSCODE Extension Development Intellisense Updates
 - Add Show Changelog(Release Notes) Command in VSCODE Extension Development Intellisense
+
+## 0.1.0
+### VSCODE Extension Development Intellisense Updates
+- Update VSCODE Extension Development Intellisense Changelog in the `<title>` tag of the webview panel from "VSCODE Extension Development Intellisense Changelog" to "VSCODE Extension Development Intellisense Release Notes"
