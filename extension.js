@@ -58,7 +58,7 @@ function activate(context) {
 	const changelogWebview = vscode.commands.registerCommand('vscode-extension-development-intellisense.showChangelog', () => {
 		const panel = vscode.window.createWebviewPanel(
 			'vscodeExtensionDevelopmentIntellisenseChangelog',
-			'VSCODE Extension Development Intellisense Changelog',
+			'VSCODE Extension Development Intellisense Release Notes',
 			vscode.ViewColumn.Active,
 			{}
 		);

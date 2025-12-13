@@ -49,3 +49,7 @@
 ## 0.1.0
 ### VSCODE Extension Development Intellisense Updates
 - Update VSCODE Extension Development Intellisense Changelog in the `<title>` tag of the webview panel from "VSCODE Extension Development Intellisense Changelog" to "VSCODE Extension Development Intellisense Release Notes"
+
+## 0.1.1
+### VSCODE Extension Development Intellisense Updates
+- Fix VSCODE Extension Development Intellisense Changelog webview title to show properly as "VSCODE Extension Development Intellisense Release Notes"
