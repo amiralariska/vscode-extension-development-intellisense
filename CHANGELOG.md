@@ -61,3 +61,7 @@
 ## 0.1.3
 ### README Updates
 - Update README.md to acknowledge 1k vscode intellisense installs and encourage users
+
+## 0.1.4
+### VSCODE Extension Development Intellisense Updates
+- Forgot to update the changelog
