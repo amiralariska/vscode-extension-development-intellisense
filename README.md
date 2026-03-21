@@ -24,3 +24,8 @@
 For more information About VSCODE Extension Development Intellisense Tips<br>
 Click link down below<br>
 [VSCODE Extension Development Intellisense Tips](https://github.com/amiralariska/vscode-extension-development-intellisense/blob/vscode-extension-development-intellisense/vscode-extension-development-intellisense-tips.md)
+
+# Thank you for 1k install
+Thank you for 1k installs for this vscode intellisense extension. And thank you very much for try this vscode intellisense extension. And let's just go road to 10k🚀
+
+**Enjoy**
