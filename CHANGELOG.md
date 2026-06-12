@@ -65,3 +65,8 @@
 ## 0.1.4
 ### VSCODE Extension Development Intellisense Updates
 - Forgot to update the changelog
+
+## 0.1.5
+### VSCODE Extension Development Intellisense Updates
+- Update VSCODE Extension Development Intellisense for better changes
+- Update VSCODE Extension Development Intellisense Steps in the different tutorials of the extension and Add more steps for the VSCODE Extension Development Intellisense
