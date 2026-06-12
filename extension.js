@@ -8,29 +8,71 @@ const { getWebviewChangelogContent } = require('./webview/changelogWebviewConten
 function activate(context) {
 	const launchjsonautocomplete = vscode.languages.registerCompletionItemProvider('jsonc', {
 		provideCompletionItems() {
-			const vscodelaunchjsoncompletionItem = new vscode.CompletionItem('VS Code Extension Development(Launch Extension)', vscode.CompletionItemKind.Module);
-			vscodelaunchjsoncompletionItem.insertText = new vscode.SnippetString(`{
-	"name": "Launch Extension",
+			const vscodepreviewthemeextensionlaunchjsoncompletionItem = new vscode.CompletionItem('VSCODE Theme Extension Development(Preview VSCODE Theme Extension)', vscode.CompletionItemKind.Module);
+			vscodepreviewthemeextensionlaunchjsoncompletionItem.insertText = new vscode.SnippetString(`{
+	"name": "Preview VSCODE Theme Extension",
 	"type": "extensionHost",
 	"request": "launch",
 	"args": [
 		"--extensionDevelopmentPath=\\\${workspaceFolder\\}"
 	]
 }`);
-			vscodelaunchjsoncompletionItem.documentation = new vscode.MarkdownString("VS Code Extension Development");
-			vscodelaunchjsoncompletionItem.detail = 'VS Code Extension Development';
-			const vscodelaunchjsoncustomcompletionItem = new vscode.CompletionItem('VS Code Extension Development(Custom Launch Extension)', vscode.CompletionItemKind.Module);
-			vscodelaunchjsoncustomcompletionItem.insertText = new vscode.SnippetString(`{
-	"name": "\${1:Launch Extension}",
+			vscodepreviewthemeextensionlaunchjsoncompletionItem.documentation = new vscode.MarkdownString("VSCODE Theme Extension Development");
+			vscodepreviewthemeextensionlaunchjsoncompletionItem.detail = 'VSCODE Theme Extension Development';
+			const vscodecustompreviewthemeextensionlaunchjsoncompletionItem = new vscode.CompletionItem('VSCODE Theme Extension Development(Custom Preview VSCODE Theme Extension)', vscode.CompletionItemKind.Module);
+			vscodecustompreviewthemeextensionlaunchjsoncompletionItem.insertText = new vscode.SnippetString(`{
+	"name": "\${1:Preview VSCODE Theme Extension}",
 	"type": "extensionHost",
 	"request": "launch",
 	"args": [
 		"--extensionDevelopmentPath=\\\${workspaceFolder\\}"
 	]
 }$0`);
-			vscodelaunchjsoncustomcompletionItem.documentation = new vscode.MarkdownString("VS Code Extension Development(Custom)");
-			vscodelaunchjsoncustomcompletionItem.detail = 'VS Code Extension Development(Custom)';
+			vscodecustompreviewthemeextensionlaunchjsoncompletionItem.documentation = new vscode.MarkdownString("VSCODE Theme Extension Development(Custom)");
+			vscodecustompreviewthemeextensionlaunchjsoncompletionItem.detail = 'VSCODE Theme Extension Development(Custom)';
+			const vscodelaunchjsoncompletionItem = new vscode.CompletionItem('VSCODE Extension Development(Launch VSCODE Extension)', vscode.CompletionItemKind.Module);
+			vscodelaunchjsoncompletionItem.insertText = new vscode.SnippetString(`{
+	"name": "Launch VSCODE Extension",
+	"type": "extensionHost",
+	"request": "launch",
+	"args": [
+		"--extensionDevelopmentPath=\\\${workspaceFolder\\}"
+	]
+},
+{
+	"name": "Extension Tests",
+	"type": "extensionHost",
+	"request": "launch",
+	"args": [
+		"--extensionDevelopmentPath=\\\${workspaceFolder\\}",
+		"--extensionTestsPath=\\\${workspaceFolder\\}/test/suite/index"
+	]
+}`);
+			vscodelaunchjsoncompletionItem.documentation = new vscode.MarkdownString("VSCODE Extension Development");
+			vscodelaunchjsoncompletionItem.detail = 'VSCODE Extension Development';
+			const vscodelaunchjsoncustomcompletionItem = new vscode.CompletionItem('VSCODE Extension Development(Custom Launch VSCODE Extension)', vscode.CompletionItemKind.Module);
+			vscodelaunchjsoncustomcompletionItem.insertText = new vscode.SnippetString(`{
+	"name": "\${1:Launch VSCODE Extension}",
+	"type": "extensionHost",
+	"request": "launch",
+	"args": [
+		"--extensionDevelopmentPath=\\\${workspaceFolder\\}"
+	]
+},
+{
+	"name": "Extension Tests",
+	"type": "extensionHost",
+	"request": "launch",
+	"args": [
+		"--extensionDevelopmentPath=\\\${workspaceFolder\\}",
+		"--extensionTestsPath=\\\${workspaceFolder\\}/test/suite/index"
+	]
+}$0`);
+			vscodelaunchjsoncustomcompletionItem.documentation = new vscode.MarkdownString("VSCODE Extension Development(Custom)");
+			vscodelaunchjsoncustomcompletionItem.detail = 'VSCODE Extension Development(Custom)';
 			return [
+				vscodepreviewthemeextensionlaunchjsoncompletionItem,
+				vscodecustompreviewthemeextensionlaunchjsoncompletionItem,
 				vscodelaunchjsoncompletionItem,
 				vscodelaunchjsoncustomcompletionItem
 			];

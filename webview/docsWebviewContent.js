@@ -16,6 +16,12 @@ h1{
 	color: blue;
 	text-align: center;
 }
+h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	color: #0080ff;
+}
 h3{
 	font-family: 'Clear Sans', sans-serif;
 	font-size: 18px;
